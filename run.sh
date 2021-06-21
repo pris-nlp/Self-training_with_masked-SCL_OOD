@@ -10,7 +10,7 @@ stu_learning_rate=0.05
 ce=True
 ce_ind=False
 balance=False
-#
+
 python3 data_process_with_agument.py --iter 0
 python3 main_supcon.py --temp 0.1 --cosine --mode train --iter 0 --epochs ${init_epochs} --batch_size ${init_batch_size} --learning_rate ${init_learning_rate}
 python3 main_supcon.py --temp 0.1 --cosine --mode test --iter 0 --epochs ${init_epochs} --batch_size ${init_batch_size} --learning_rate ${init_learning_rate}
