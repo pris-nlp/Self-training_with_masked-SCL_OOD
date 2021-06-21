@@ -1,7 +1,7 @@
 # Self-training with Masked Supervised Contrastive Loss for Unknown Intents Detection
 This repository is the official implementation of Self-training with Masked Supervised Contrastive
 Loss for Unknown Intents Detection (IJCNN2021) by Zijun Liu, Yuanmeng Yan, Keqing He, Sihong Liu, Hong Xu, Weiran Xu.
-
+   
 ## Introduction
 An iterative learning framework that can dynamically improve the model's ability of OOD intent detection and meanwhile continually obtain valuable new data to learn deep discriminative features. 
 ![0001.jpg](https://i.loli.net/2021/06/21/YsRhzQPqcwuV8y6.jpg)
